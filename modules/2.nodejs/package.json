@@ -1,0 +1,36 @@
+{
+  "name": "ece-webtech-pires-flament",
+  "version": "1.0.0",
+  "description": "Test description",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "develop": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chappuis5/ece-webtech-Pires-Flament.git"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Maxime Pires",
+    "email": "maximepires4@gmail.com",
+    "url": "https://github.com/maximepires4"
+  },
+  "contributors": [
+    {
+      "name": "Test",
+      "email": "test@test.com",
+      "url": "url.fr"
+    }
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chappuis5/ece-webtech-Pires-Flament/issues"
+  },
+  "homepage": "https://github.com/Chappuis5/ece-webtech-Pires-Flament/tree/maxime-develop/modules/2.nodejs#readme",
+  "dependencies": {
+    "nodemon": "^2.0.20"
+  }
+}

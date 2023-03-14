@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.wt-container {
+    @apply px-8
+}
+
+.wt-main {
+    @apply min-h-screen py-16 flex flex-col items-center dark:bg-black
+}
+
+.wt-title {
+    @apply text-black m-0 text-7xl dark:text-white
+}
+
+.wt-title {
+    @apply text-black m-0 text-5xl dark:text-white
+}
+
+.wt-subtitle {
+    @apply m-0 text-4xl
+}
+
+.wt-description {
+    @apply my-16 text-xl
+}
+
+.wt-grid {
+    @apply flex flex-wrap max-w-screen-md justify-center
+}
+
+.wt-card {
+    @apply border bg-gray-50 dark:bg-gray-800 text-black dark:text-white rounded-xl p-6 m-4 duration-150 max-w-xs hover:text-blue-500 hover:border-blue-500;
+}
+
+.wt-button {
+    @apply text-white rounded-full px-8 py-2
+}

@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.wt-container {
+    @apply px-8
+}
+
+.wt-main {
+    @apply min-h-screen py-16 flex flex-col items-center
+}
+.wt-title {
+    @apply m-0 text-7xl
+}
+
+.wt-description {
+    @apply my-16 text-xl
+}
+
+.wt-grid {
+    @apply flex flex-wrap max-w-screen-md justify-center
+}
+
+.wt-card {
+    @apply border border-black rounded-xl p-6 m-4 duration-150 max-w-xs hover:text-blue-500 hover:border-blue-500
+}
